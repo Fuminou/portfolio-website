@@ -197,15 +197,24 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .home__social-icon:hover {
   color: var(--first-color);
+  background-color: #dcdcdc;
 }
 .home__img {
   position: absolute;
